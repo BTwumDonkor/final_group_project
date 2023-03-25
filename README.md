@@ -1,26 +1,25 @@
 # Final Group Project 
 
-Welcome to the final group project of the Data Analytics Bootcamp. This final project has been designed to showcase the skills learned in the bootcamp.
-Each team member has been assigned a role to complete for the project: 
+The Data Analytics Bootcamp's final group project is a platform to exhibit your learned skills. The project has been specifically designed for this purpose. Every team member has been allocated a role to play for project completion. The final project is the culmination of the skills acquired in the Data Analytics Bootcamp.
 
-Group members and their respective roles are as follows:
-- Circle: Katrin Freitag
-- Square: Boakye Twum-Donkor
-- Triangle: Matthew Lao
-- X: Anand Bajaj
+The team members and their designated roles are listed below:
+
+* Katrin Freitag: Circle
+* Boakye Twum-Donkor: Square
+* Matthew Lao: Triangle
+* Anand Bajaj: X
 
 ## Topic
 
 ### Topic Selection
-As a group, we have decided to anlayze the importance of **customer reviews** for businesses. We decided to focus on this topic, seeing as positive reviews, can be a great way for word-of-mouth advertisement for businesses. They can be a deciding factor as to whether customers will visit a business. Furthermore, from the business perspective, business owners can also improve their business model and increase their customer base by looking at common words that are frequently mentioned in reviews. These frequent words, can additionally be a great source for directed advertisement on social media platforms and in search enginges. 
+Our group has chosen to examine the significance of **customer reviews** for businesses. Our decision to focus on this topic is due to the fact that positive reviews can serve as a valuable form of word-of-mouth advertising for businesses. They can often be a determining factor in whether or not a customer chooses to visit a particular establishment. Moreover, from the perspective of business owners, analyzing commonly used words in reviews can help them improve their business model and expand their customer base. Such frequently used words can also be used for targeted advertising on social media platforms and search engines.
 
 ### Data Source
-To help analyze customer reviews, we are using the publically available [Yelp Dataset](https://www.yelp.com/dataset/), as it provides a large amount of information regarding American and Canadian businesses. It provides information regarding users, business reviews, star ratings, and rating counts. The relationship between each dataset has been visualized using and ERD model:
-
+To assist in the analysis of customer reviews, we have opted to utilize the publicly accessible [Yelp Dataset](https://www.yelp.com/dataset/). This particular dataset offers a vast amount of data pertaining to businesses in both the United States and Canada. It includes data on users, business reviews, star ratings, and rating counts. An ERD model has been used to depict the connections between each dataset.
 ![ERD](images/Yelp_ERD.png)
 
 
-Each business is categorized, making it easier to filter out the required data for our analysis. The dataset has been cleaned, organized and exported into csv files for analysis. Seeing as there are millions of reviews available, we have decided to focus on a subset of **Italian Restaurants in the State of California**:
+To facilitate the filtering of the required data for our analysis, each business has been classified into specific categories. The dataset has been methodically sorted, cleaned, and then exported into CSV files for further examination. Given the vast number of reviews available, we have opted to concentrate on a subset of data pertaining to **Italian restaurants in California**.
 
 - [Italian Restaurants in California](resources/yelp_business_dataset_italian_restaurant_clean.csv)
 - [Italian Restaurant Reviews](resources/yelp_reviews_Italian_Restaurant_cleanimport.csv)
